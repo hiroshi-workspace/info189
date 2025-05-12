@@ -159,6 +159,8 @@ Version: 3.0
 }
 .category-item_head .category-item_price {
   color: var(--fs-color-secondary);
+  width: fit-content;
+  white-space: nowrap;
 }
 .section-background-fixed {
   background-attachment: fixed;
@@ -474,7 +476,7 @@ textarea:focus {
     font-size: 34px;
   }
   .header-button {
-    width: 125px;
+    width: 142px;
   }
   .title-services h2::after {
     left: 44%;
