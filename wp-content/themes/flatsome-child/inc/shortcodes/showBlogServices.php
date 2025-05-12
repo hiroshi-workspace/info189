@@ -46,4 +46,4 @@ function getAllBlogServices($atts)
 
     return $output;
 }
-add_shortcode('showBlogService', 'getAllBlogServices');
+add_shortcode('showBlogServices', 'getAllBlogServices');
